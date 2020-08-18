@@ -13,6 +13,7 @@ public class Day3Main {
         // 30,000+(200*5)=31,000
 
         //classname objrefname=new classname;
+        //create employee1
         Employee employee = new Employee(30_000,200);
         System.out.println("Employee Wage:"+employee.calculateWage(5));
         //create employee 1
