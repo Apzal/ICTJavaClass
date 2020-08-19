@@ -1,0 +1,24 @@
+public abstract class Chrome extends Browser {
+
+
+    public Chrome(){
+    super("text");
+    }
+//    public Chrome(String name){
+//        super(name);
+//        System.out.println("Chrome Constructor");
+//
+//    }
+    public abstract void incognitiveWindow();
+
+    public void ChromeSettings(){
+        System.out.println("In Chrome Class -ChromeSettings method");
+    }
+
+    @Override
+    public void NavigatePages(){
+        super.NavigatePages();
+        System.out.println("Chrome class -NavigatePages method");
+
+    }
+}
