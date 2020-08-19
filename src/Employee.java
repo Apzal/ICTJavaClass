@@ -11,12 +11,14 @@ public class Employee {
 
     public Employee(int baseSalary){
         this(baseSalary,0);
+        //this(); calls default constructor
+        //this(x,y);calls  constructor with two parameter
     }
+
     public int calculateWage(int extraHours) {
         return baseSalary+(hourlyRate*extraHours);
     }
     public int calculateWage() {
-
         return baseSalary;
     }
 

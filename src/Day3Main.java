@@ -14,13 +14,16 @@ public class Day3Main {
 
         //classname objrefname=new classname;
         //create employee1
-        Employee employee = new Employee(30_000,200);
-        System.out.println("Employee Wage:"+employee.calculateWage(5));
-        //create employee 1
-        Employee employee1=new Employee(30_000);
-        System.out.println("Employee1 Wage:"+employee1.calculateWage());
+//        Employee employee = new Employee(30_000,200);
+//        System.out.println("Employee Wage:"+employee.calculateWage(5));
+//        //create employee 1
+//        Employee employee1=new Employee(30_000);
+//        System.out.println("Employee1 Wage:"+employee1.calculateWage());
+//
+//        Employee.getNumberofEmployees();
 
-        Employee.getNumberofEmployees();
+
+
 
     }
 
